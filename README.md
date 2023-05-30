@@ -1,4 +1,4 @@
-# VIT-Visual_Transformer
+# VIT-Vision_Transformer
 Experimento de "fine-tune" de um modelo ViT (Vision Transformer) para classificação de imagens.
 
 Informações mais detalhadas sobre ViT (Vision Transformer) poderão ser obtidas no artigo de autoria de Vaswani
