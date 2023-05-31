@@ -3,7 +3,7 @@ O presente trabalho tem por finalidade o experimento didático de realizar o "fi
 
 Descrito no artigo de autoria de Vaswani e outros (2017), publicação que pode ser localizado no endereço https://arxiv.org/pdf/2010.11929.pdf, os autores propõem uma abordagem para o reconhecimento de imagens usando Transformers, arquitetura que têm alcançado ótimos resultados em tarefas do processamento de linguagem natural.
 
-O conceito central do artigo é substituir a abordagem tradicional de processamento de imagens, que trata as imagens como uma grade de pixels, por uma representação textual. Eles dividem a imagem em patches de 16x16 pixels e codificam cada patch em um vetor de palavras (Embedded patches). Esses vetores de palavras são então alimentados em um modelo Transformer para análise.
+O conceito central do artigo é substituir a abordagem tradicional de processamento de imagens, que trata as imagens como uma grade de pixels, por uma representação textual. Eles dividem a imagem em patches de 16x16 pixels e codificam cada patch em um vetor de palavras (Embedded Patches). Esses vetores de palavras são então adicionados a vetores posicionais (Posicional embeddings) e alimentados em um modelo Transformer para análise.
 
 O ViT (Vision Transformer) é treinado em um grande número de imagens e mostra resultados promissores em diferentes conjuntos de dados de referência, em termos de precisão e escalabilidade, em comparação com modelos tradicionais de convolução.
 
