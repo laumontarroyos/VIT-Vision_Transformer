@@ -1,19 +1,38 @@
 # VIT-Vision_Transformer
-Experimento de "fine-tune" de um modelo ViT (Vision Transformer) para classificação de imagens.
+O presente trabalho tem por finalidade o experimento didático de realizar o "fine-tune" de um modelo ViT (Vision Transformer) para classificação de imagens, tarefa típica do segmento de visão computacional. 
 
-Informações mais detalhadas sobre ViT (Vision Transformer) poderão ser obtidas no artigo de autoria de Vaswani
-e outros (2017) no endereço https://arxiv.org/pdf/2010.11929.pdf .
+Descrito no artigo de autoria de Vaswani e outros (2017), publicação que pode ser localizado no endereço https://arxiv.org/pdf/2010.11929.pdf, os autores propõem uma abordagem para o reconhecimento de imagens usando Transformers, arquitetura que têm alcançado ótimos resultados em tarefas do processamento de linguagem natural.
+
+O conceito central do artigo é substituir a abordagem tradicional de processamento de imagens, que trata as imagens como uma grade de pixels, por uma representação textual. Eles dividem a imagem em patches de 16x16 pixels e codificam cada patch em um vetor de palavras. Esses vetores de palavras são então alimentados em um modelo Transformer para análise.
+
+O ViT (Vision Transformer) é treinado em um grande número de imagens e mostra resultados promissores em diferentes conjuntos de dados de referência, em termos de precisão e escalabilidade, em comparação com modelos tradicionais de convolução.
+
+
+
 
 
 ![](/img/VIT-Vision-Transformer.jpeg)
+figura 1: visão geral do modelo ViT - Vision Transformer, descrito no artigo de autoria de Vaswani e outros (2017).
 
-### Fonte de Dados: 
-Para realizar a análsie de sentimentos solicitada, coletou-se dados de avaliações feitas para o curso "Sequence Models", capacitação que faz parte 
+### Fonte de Dados: Dataset "cats_vs_dogs" hospedado na "Hugging Face"
+Como fonte de dados, utilizou-se um subconjunto formado por imagens de gatos e cães do "dataset" conhecido como "Asirra" (Animal Species Image Recognition for Restricting Access). Desse "dataset" hospedado na plataforma "Hugging Face" (https://huggingface.co/datasets/cats_vs_dogs), utilizou-se 8.427 imagens para o fine-tune deste trabalho, o que corresponde a cerca de 50% do conteúdo.
 
+Sobre o "dataset" Asirra hospedado na plataforma "Kaggle"(https://www.kaggle.com/c/dogs-vs-cats), origem do subconjunto presente na "Hugging Face", segue, abaixo, trecho da descrição extraída do "Kaggle" e mantida na língua original em inglês:
+
+The Asirra data set
+
+Web services are often protected with a challenge that's supposed to be easy for people to solve, but difficult for computers. Such a challenge is often called a CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) or HIP (Human Interactive Proof). HIPs are used for many purposes, such as to reduce email and blog spam and prevent brute-force attacks on web site passwords.
+
+Asirra (Animal Species Image Recognition for Restricting Access) is a HIP that works by asking users to identify photographs of cats and dogs. This task is difficult for computers, but studies have shown that people can accomplish it quickly and accurately. Many even think it's fun! Here is an example of the Asirra interface:
+
+Asirra is unique because of its partnership with Petfinder.com, the world's largest site devoted to finding homes for homeless pets. They've provided Microsoft Research with over three million images of cats and dogs, manually classified by people at thousands of animal shelters across the United States. Kaggle is fortunate to offer a subset of this data for fun and research. 
+
+# Experimento de "Fine-Tune"
 ![](/img/modelo-fine-tunning-acuracia.png)
 
 ![](/img/modelo-fine-tunning-matriz-confusao.png)
 
+# Comparando com modelo Vit disponibilizado na "huggin Face" 
 ![](/img/modelo-Kaggle-acuracia.png)
 
 ![](/img/modelo-Kaggle-matriz-confusao.png)
