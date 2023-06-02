@@ -31,7 +31,7 @@ Asirra is unique because of its partnership with Petfinder.com, the world's larg
 
 
 # Experimento de "Fine-Tuning"
-Após fine-tunning do modelo ViT para classificação de imagens a partir do dataset "cats_vs_dogs", observa-se bons resultados de acurácia e F1-Score, confome ilustardo no quadro da imagem abaixo. É necessário lembrar que se fez uso neste trabalho de apenas 50% do dataset disponibilizado na plataforma, de maneira que um treinamento com o dataset completo pode apresentar um resultado ainda melhor.
+Após fine-tunning do modelo ViT para classificação de imagens a partir do dataset "cats_vs_dogs", observa-se bons resultados de acurácia e F1-Score, confome ilustrado no quadro da imagem abaixo. É necessário lembrar que se fez uso neste trabalho de apenas 50% do dataset disponibilizado na plataforma, de maneira que um treinamento com o dataset completo poderá apresentar um resultado ainda melhor.
 
 ![](/img/modelo-fine-tunning-acuracia.png)
 
