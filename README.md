@@ -17,9 +17,9 @@ O ViT (Vision Transformer) é treinado em um grande número de imagens e mostra 
 figura 1: visão geral do modelo ViT - Vision Transformer, descrito no artigo de autoria de Vaswani e outros (2017).
 
 ### Fonte de Dados: Dataset "cats_vs_dogs" hospedado na "Hugging Face"
-Como fonte de dados para o "fine-tuning", utilizou-se um subconjunto formado por imagens de gatos e cães do "dataset" conhecido como "Asirra" (Animal Species Image Recognition for Restricting Access). Desse "dataset" hospedado na plataforma "Hugging Face" (https://huggingface.co/datasets/cats_vs_dogs), utilizou-se 8.427 (oito mil, quatrocentas e vinte e sete) imagens neste trabalho, o que corresponde a cerca de 50% do conteúdo armazenado.
+Como fonte de dados para o "fine-tuning", utilizou-se um subconjunto formado por imagens de gatos e cães do "dataset" conhecido como "Asirra" (Animal Species Image Recognition for Restricting Access). Desse "dataset" hospedado na plataforma "Hugging Face" 🤗 (https://huggingface.co/datasets/cats_vs_dogs), utilizou-se 8.427 (oito mil, quatrocentas e vinte e sete) imagens neste trabalho, o que corresponde a cerca de 50% do conteúdo armazenado.
 
-Sobre o "dataset" Asirra hospedado na plataforma "Kaggle"(https://www.kaggle.com/c/dogs-vs-cats), origem do subconjunto presente na "Hugging Face", segue, abaixo, trecho da descrição extraída do próprio "Kaggle" e mantida na língua original em inglês:
+Sobre o "dataset" Asirra hospedado na plataforma "Kaggle"(https://www.kaggle.com/c/dogs-vs-cats), origem do subconjunto presente na "Hugging Face"🤗, segue, abaixo, trecho da descrição extraída do próprio "Kaggle" e mantida na língua original em inglês:
 
 The Asirra data set
 
