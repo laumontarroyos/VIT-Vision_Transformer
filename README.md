@@ -35,6 +35,9 @@ Asirra is unique because of its partnership with Petfinder.com, the world's larg
 ![](/img/modelo-fine-tunning-matriz-confusao.png)
 
 # Comparando com modelo Vit disponibilizado na "huggin Face" 
+
+![](/img/modelos-hugginface-catsdogs.jpeg)
+
 ![](/img/modelo-Kaggle-acuracia.png)
 
 ![](/img/modelo-Kaggle-matriz-confusao.png)
