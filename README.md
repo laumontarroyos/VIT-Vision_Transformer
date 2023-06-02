@@ -29,8 +29,14 @@ Asirra (Animal Species Image Recognition for Restricting Access) is a HIP that w
 
 Asirra is unique because of its partnership with Petfinder.com, the world's largest site devoted to finding homes for homeless pets. They've provided Microsoft Research with over three million images of cats and dogs, manually classified by people at thousands of animal shelters across the United States. Kaggle is fortunate to offer a subset of this data for fun and research. 
 
-# Experimento de "Fine-Tune"
+
+# Experimento de "Fine-Tuning"
+Após fine-tunning do modelo ViT para classificação de imagens a partir do dataset "cats_vs_dogs", observa-se bons resultados de acurácia e F1-Score, confome ilustardo no quadro da imagem abaixo. É necessário lembrar que se fez uso neste trabalho de apenas 50% do dataset disponibilizado na plataforma, de maneira que um treinamento com o dataset completo pode apresentar um resultado ainda melhor.
+
 ![](/img/modelo-fine-tunning-acuracia.png)
+
+
+Como esperado, a matriz confusão também ilustra os bons resultados alcançados, dada a ordem de grandeza do número de acertos na diagonal principal, relativamente ao de erros na secundária.
 
 ![](/img/modelo-fine-tunning-matriz-confusao.png)
 
