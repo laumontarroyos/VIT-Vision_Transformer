@@ -36,14 +36,22 @@ Após fine-tunning do modelo ViT para classificação de imagens a partir do dat
 ![](/img/modelo-fine-tunning-acuracia.png)
 
 
-Como esperado, a matriz confusão também ilustra os bons resultados alcançados, dada a ordem de grandeza do número de acertos na diagonal principal, relativamente ao de erros na secundária.
+Como esperado, a matriz de confusão também ilustra os bons resultados alcançados, dada a ordem de grandeza do número de acertos na diagonal em cor amarela, relativamente ao de erros na diagonal da outra cor.
 
 ![](/img/modelo-fine-tunning-matriz-confusao.png)
 
+
 # Comparando com modelo Vit disponibilizado na "hugging Face" 
+Apenas por curiosidade, resolveu-se comparar os resultados do modelo didático treinado neste trabalho com aquele alcançado por um dos modelos hospedados na plataforma "hugging face" 🤗  e ajustado para o mesmo dataset "cats_vs_dogs". Entre os modelos existentes atualmente e que podem ser vistos na imagem abaixo, optou-se, aleatoriamente, por usar o segundo mais "baixado", identificado como "nateraw/vit-base-cats-vs-dogs".
 
 ![](/img/modelos-hugginface-catsdogs.jpeg)
 
+
+Escolhido o modelo "nateraw/vit-base-cats-vs-dogs", submeteu-se o mesmo conjunto de testes utilizado para avaliar o nosso modelo didático deste trabalho e alcançou-se os excelentes resultados de acurácia e F1-Score abaixo. Trata-se, evidentemente, de uma avaliação comparativa apenas superficial. O modelo escolhido na plataforma possui outros ajustes finos não aplicados ao nosso e é possível considerar a possibilidade dele ter sido treinado com um maior conjunto de dados do que o nosso, lembrando que fizemo uso de apenas metade do dataset no presente trabalho e ainda menos no treinamento. Como não organizamos o conjunto de treinamento do modelo da plataforma, também é necessário considerar a possibilidade de nosso conjunto de testes, ou boa parte dele, ter integrado a base utilizada para o treinamento do modelo da "hugging face" 🤗. Enfim, trata-se de uma comporação apenas ilustrativa.
+
 ![](/img/modelo-Kaggle-acuracia.png)
+
+
+Os bons resultados do modelo da "hugging face" 🤗 escolhido também estão visíveis na matriz de confusão abaixo.
 
 ![](/img/modelo-Kaggle-matriz-confusao.png)
